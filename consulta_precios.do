@@ -8,7 +8,7 @@
 program define consulta_precios 
 		quietly {
 		clear
-		use mercado_publico
+		use mercado_publico_red
 		drop if fecha_archivo < tm(`2') | fecha_archivo < tm(`3')
 		keep if estado == "Aceptada"
 		gen C1 = 1 if regexm(lower(nombreroductogenerico), "`1'")
