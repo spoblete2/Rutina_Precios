@@ -1,4 +1,4 @@
-// Programa de Consulta de precios de medicamentos desde base de datos de Mercado Publico
+// Programa de consulta de precios de medicamentos desde base de datos de Mercado Publico
 // Unidad de Evaluaciones Económicas - Departamento ETESA-SBE - Ministerio de Salud
 // Versión 1.0 Enero de 2021
 
