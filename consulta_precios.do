@@ -8,7 +8,7 @@
 program define consulta_precios 
 		quietly {
 		clear all
-		use 2020_red
+		use mercado_publico_red
 		gen C2 = 1 if regexm(lower(especificacioncomprador), "`1'")
 		gen C3 = 1 if regexm(lower(especificacionproveedor), "`1'")
 		keep if C2 == 1 | C3 == 1
